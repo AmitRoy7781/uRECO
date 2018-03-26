@@ -1,0 +1,12 @@
+$('.mainflip').click(
+  function(){
+ if($(this).hasClass('flip-0'))
+ {
+    $(this).removeClass('flip-0');
+    $(this).addClass('flip-180');
+  }
+ else{
+    $(this).addClass('flip-0');
+    $(this).removeClass('flip-180');
+     }
+  });

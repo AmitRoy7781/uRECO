@@ -5,16 +5,16 @@ app = Flask(__name__)
 
 @app.route('/')
 def main():
-    return render_template("test.html")
+    return render_template("index.html")
 
-@app.route('/#sign_up')
+@app.route('/sign_up')
 def sign_up():
     return 'Not Yet Implemented'
 
-@app.route('/#sign_in')
+@app.route('/sign_in')
 def sign_in():
     return 'Not Yet Implemented'
 
-5
+
 if __name__ == '__main__':
     app.run()

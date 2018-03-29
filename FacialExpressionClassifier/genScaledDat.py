@@ -11,4 +11,4 @@ data = np.array(data)
 data = data.astype('float64')
 data = [[np.divide(d, 255.0) for d in dat] for dat in data]
 
-np.save('/home/saif_m_dhrubo/Study Materials/CSE DU - 3_1/CSE-3112 Software Engineering Lab/Project/webCamEmocognizer/data/Scaled.bin.npy',data)
+np.save('/home/saif_m_dhrubo/uRECO/FacialExpressionClassifier/data/Scaled.bin.npy',data)

@@ -9,7 +9,7 @@ from keras.utils import np_utils
 from keras.regularizers import l2
 from keras.optimizers import SGD, RMSprop
 
-np.random.seed(2222)  # for reproducibility
+np.random.seed(2222) #for reproducibility
 
 #Load the scaled data, both pixels and labels
 X_train = np.load('./data/Scaled.bin.npy')

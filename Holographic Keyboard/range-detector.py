@@ -1,17 +1,7 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
-# USAGE: You need to specify a filter and "only one" image source
-#
-# (python) range-detector --filter RGB --image /path/to/image.png
-# or
-# (python) range-detector --filter HSV --webcam
-
 import cv2
 import argparse
 from operator import xor
 import pickle
-
 
 def callback(value):
     pass
@@ -29,15 +19,15 @@ def setup_trackbars(range_filter):
 
 def get_arguments():
     ap = argparse.ArgumentParser()
-    ap.add_argument('-f', '--filter', required=True,
+    ap.add_argument('-f', '--filter', required = True,
                     help='Range filter. RGB or HSV')
-    ap.add_argument('-i', '--image', required=False,
+    ap.add_argument('-i', '--image', required = False,
                     help='Path to the image')
-    ap.add_argument('-w', '--webcam', required=False,
+    ap.add_argument('-w', '--webcam', required = False,
                     help='Use webcam', action='store_true')
-    ap.add_argument('-p', '--preview', required=False,
+    ap.add_argument('-p', '--preview', required = False,
                     help='Show a preview of the image after applying the mask',
-                    action='store_true')
+                    action = 'store_true')
     args = vars(ap.parse_args())
 
     if not xor(bool(args['image']), bool(args['webcam'])):

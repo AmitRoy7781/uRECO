@@ -3,12 +3,18 @@
 <html lang="en">
   <head>
 
+    <title>uRECO - Sign Up</title>
+    <link href="/static/img/icon.ico" rel='icon' type='image/x-icon'/>
+
+
     <meta charset="utf-8">
     <link href="/static/css/style.css" rel='stylesheet' type='text/css'/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="application/x-javascript"> addEventListener("load", function () {
         setTimeout(hideURLbar, 0);
     }, false);
+
+
 
     function hideURLbar() {
         window.scrollTo(0, 1);
@@ -18,8 +24,6 @@
     <!--//webfonts-->
 
 
-    <script src="/static/js/jquery-1.11.2.js"></script>
-    <script src="/static/js/sign_up.js"></script>
 
   </head>
 
@@ -45,19 +49,19 @@
         <div class="clear"></div>
     </div>
     <h2>Or Signup with</h2>
-    <form>
+    <form action="/sign_up" method="POST">
 
 
 
         <div class="lable-2">
-            <input id="name" type="text" class="text" value="User Name" onfocus="this.value = '';"
+            <input id="name" name="name" type="text" class="text" value="User Name" onfocus="this.value = '';"
                    onblur="if (this.value == '') {this.value = 'User Name';}">
 
-            <input id="email" type="text" class="text" value="Email Address" onfocus="this.value = '';"
+            <input id="email" name="email" type="text" class="text" value="Email Address" onfocus="this.value = '';"
                    onblur="if (this.value == '') {this.value = 'Email Address';}">
-            <input id="pass" type="password" class="lable-2" placeholder="Password" onfocus="this.value = '';"
+            <input id="pass" name="pass" type="password" class="lable-2" placeholder="Password" onfocus="this.value = '';"
                    onblur="if (this.value == '') {this.value = 'Password';}">
-            <input id="c_pass" type="password" class="password" placeholder="Confirm Password" onfocus="this.value = '';"
+            <input id="c_pass" name="c_pass" type="password" class="password" placeholder="Confirm Password" onfocus="this.value = '';"
                    onblur="if (this.value == '') {this.value = 'Confirm Password';}">
 
         </div>

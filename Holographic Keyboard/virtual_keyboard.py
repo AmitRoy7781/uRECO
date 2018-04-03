@@ -30,7 +30,7 @@ def get_keys():
 	x2, y2 = key_width + x1, key_width + y1
 	c1, c2 = x1, y1 # copying x1, y1
 	c = 0
-	keys = "qwertyuiop"
+	keys = "QWERTYUIOP"
 	for i in range(len(keys)):
 		row_keys.append([keys[c], (x1, y1), (x2, y2), (int((x2+x1)/2) - 5, int((y2+y1)/2) + 10)])
 		x1 += key_width
@@ -43,7 +43,7 @@ def get_keys():
 	x2, y2 = key_width + x1, key_width + y1
 	c1, c2 = x1, y1
 	c = 0
-	keys = "asdfghjkl"
+	keys = "ASDFGHJKL"
 	for i in range(len(keys)):
 		row_keys.append([keys[c], (x1, y1), (x2, y2), (int((x2+x1)/2) - 5, int((y2+y1)/2) + 10)])
 		x1 += key_width
@@ -56,7 +56,7 @@ def get_keys():
 	x2, y2 = key_width + x1, key_width + y1
 	c1, c2 = x1, y1
 	c = 0
-	keys = "zxcvbnm"
+	keys = "ZXCVBNM"
 	for i in range(len(keys)):
 		row_keys.append([keys[c], (x1, y1), (x2, y2), (int((x2+x1)/2) - 5, int((y2+y1)/2) + 10)])
 		x1 += key_width

@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94fe602a-222d-4bd9-a9e1-97f0294e321c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/FacialExpressionClassifer/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/VirtualKeyboard/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/FacialExpressionClassifier/DetectEmotion.py" afterPath="$PROJECT_DIR$/FacialExpressionClassifer/DetectEmotion.py" />
-      <change beforePath="$PROJECT_DIR$/FacialExpressionClassifier/data/labels.bin.npy" afterPath="$PROJECT_DIR$/FacialExpressionClassifer/data/labels.bin.npy" />
-      <change beforePath="$PROJECT_DIR$/FacialExpressionClassifier/genScaledDat.py" afterPath="$PROJECT_DIR$/FacialExpressionClassifer/genScaledDat.py" />
-      <change beforePath="$PROJECT_DIR$/FacialExpressionClassifier/models/Face_model_architecture.json" afterPath="$PROJECT_DIR$/FacialExpressionClassifer/models/Face_model_architecture.json" />
-      <change beforePath="$PROJECT_DIR$/FacialExpressionClassifier/models/Face_model_weights.h5" afterPath="$PROJECT_DIR$/FacialExpressionClassifer/models/Face_model_weights.h5" />
-      <change beforePath="$PROJECT_DIR$/FacialExpressionClassifier/models/haarcascade_frontalface_default.xml" afterPath="$PROJECT_DIR$/FacialExpressionClassifer/models/haarcascade_frontalface_default.xml" />
-      <change beforePath="$PROJECT_DIR$/FacialExpressionClassifier/trainCNN.py" afterPath="$PROJECT_DIR$/FacialExpressionClassifer/trainCNN.py" />
-      <change beforePath="$PROJECT_DIR$/Holographic Keyboard/range-detector.py" afterPath="$PROJECT_DIR$/VirtualKeyboard/range-detector.py" />
-      <change beforePath="$PROJECT_DIR$/Holographic Keyboard/range.pickle" afterPath="$PROJECT_DIR$/VirtualKeyboard/range.pickle" />
-      <change beforePath="$PROJECT_DIR$/Holographic Keyboard/virtual_keyboard.py" afterPath="$PROJECT_DIR$/VirtualKeyboard/virtual_keyboard.py" />
-      <change beforePath="$PROJECT_DIR$/uRECO.py" afterPath="$PROJECT_DIR$/uRECO.py" />
-    </list>
+    <list default="true" id="94fe602a-222d-4bd9-a9e1-97f0294e321c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/uRECO.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="181">
-              <caret line="62" column="36" lean-forward="true" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
+              <caret line="62" column="17" lean-forward="true" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
               <folding>
                 <element signature="e#0#99#0" expanded="true" />
                 <marker date="1522765560759" expanded="true" signature="946:1019" ph="INSERT INTO user... " />
@@ -707,7 +692,7 @@
     <entry file="file://$PROJECT_DIR$/uRECO.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
-          <caret line="62" column="36" lean-forward="true" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
+          <caret line="62" column="17" lean-forward="true" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
           <folding>
             <element signature="e#0#99#0" expanded="true" />
             <marker date="1522765560759" expanded="true" signature="946:1019" ph="INSERT INTO user... " />

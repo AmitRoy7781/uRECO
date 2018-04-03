@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, json, flash, redirect, url_for, session, logging
 from flask_mysqldb import MySQL
-
-#from Virtual_Keyboard import virtual_keyboard as vp
+from VirtualKeyboard import virtual_keyboard as keyboard
+from FacialExpressionClassifer import DetectEmotion as emodetect
 import MySQLdb
 
 
@@ -53,14 +53,14 @@ def showSignIn():
 def sign_in():
     return render_template("sign_in.html")
 
-#@app.route('/virtual_keyboard')
-#def virtual_keyboard():
-    #vp.main()
+@app.route('/virtual_keyboard')
+def virtual_keyboard():
+    keyboard.main()
 
 
-#@app.route('/facial_expression_classifer')
-#def facial_expression_classifier():
-
+@app.route('/facial_expression_classifer')
+def facial_expression_classifier():
+    emodetect.extract_face_features()
 
 
 if __name__ == '__main__':

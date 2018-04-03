@@ -152,3 +152,6 @@ wsgiref	0.1.2	0.1.2
 xattr	0.9.3	0.9.3
 xlib	0.21	0.21
 zope.interface	4.1.3	4.4.3
+
+
+wtforms

@@ -50,14 +50,16 @@
 
 
         <div class="lable-2">
-            <input id="name" name="name" type="text" class="text" value="User Name" onfocus="this.value = '';"
+            <input id="name" name="name" type="text" class="text" value="Full Name" onfocus="this.value = '';"
+                   onblur="if (this.value == '') {this.value = 'Full Name';}">
+            <input id="username" name="username" type="text" class="text" value="User Name" onfocus="this.value = '';"
                    onblur="if (this.value == '') {this.value = 'User Name';}">
 
             <input id="email" name="email" type="text" class="text" value="Email Address" onfocus="this.value = '';"
                    onblur="if (this.value == '') {this.value = 'Email Address';}">
-            <input id="pass" name="pass" type="password" class="lable-2" placeholder="Password" onfocus="this.value = '';"
+            <input id="password" name="password" type="password" class="lable-2" placeholder="Password" onfocus="this.value = '';"
                    onblur="if (this.value == '') {this.value = 'Password';}">
-            <input id="c_pass" name="c_pass" type="password" class="password" placeholder="Confirm Password" onfocus="this.value = '';"
+            <input id="c_password" name="c_password" type="password" class="lable-2" placeholder="Confirm Password" onfocus="this.value = '';"
                    onblur="if (this.value == '') {this.value = 'Confirm Password';}">
 
         </div>

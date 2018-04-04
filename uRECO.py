@@ -19,9 +19,13 @@ conn = MySQLdb.connect(host="localhost",user="root",password="TishuPaper",db="uR
 # init MYSQL
 mysql.init_app(app)
 
-
 @app.route('/')
 def home():
+    return render_template("home.html")
+
+
+@app.route('/home')
+def start_page():
     return render_template("home.html")
 
 
@@ -80,6 +84,7 @@ def sign_up():
                 return render_template("home.html")
 
 
+
         return render_template('sign_up.html',form=form)
 
 @app.route('/show_sign_in')
@@ -99,7 +104,7 @@ def sign_in():
     if temp is None:
         return render_template('sign_in.html')
     else:
-        return render_template("home.html")
+        return render_template("logged_in.html")
 
 #@app.route('/virtual_keyboard')
 #def virtual_keyboard():

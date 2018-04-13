@@ -6,7 +6,8 @@ from functools import wraps
 import MySQLdb
 
 #from VirtualKeyboard import virtual_keyboard as keyboard
-#from FacialExpressionClassifer import DetectEmotion as emodetect
+
+
 
 app = Flask(__name__)
 mysql = MySQL(app)
@@ -107,17 +108,38 @@ def sign_in():
         return render_template("logged_in.html")
 
 
-@app.route('/virtual_keyboard')
-def virtual_keyboard():
-    return "Not Yet Merged"
-
-
 @app.route('/facial_expression_recognition')
-def facial_expression_recognition():
-    return "Not Yet Merged"
+def feature1():
+    return facial_expression_recognition()
 
 
 @app.route('/sign_language_detection')
+def feature2():
+    return sign_language_detection()
+
+
+@app.route('/virtual_keyboard')
+def feature3():
+    return virtual_keyboard()
+
+
+
+
+
+
+
+
+#from VirtualKeyboard import virtual_keyboard as keyboard
+def virtual_keyboard():
+    #return keyboard.main()
+    return "Not Yet Merged"
+
+#from FacialExpressionClassifer import DetectEmotion as emodetect
+def facial_expression_recognition():
+    #return emodetect
+    return "Not Yet Merged"
+
+
 def sign_language_detection():
     return "Not Yet Merged"
 

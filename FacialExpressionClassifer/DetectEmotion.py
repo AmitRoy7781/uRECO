@@ -3,10 +3,11 @@ from keras.optimizers import SGD
 import numpy as np
 from time import sleep
 
-model = model_from_json(open('./models/Face_model_architecture.json').read())
+model = model_from_json(open('/home/amit-roy/PycharmProjects/uRECO/FacialExpressionClassifer/models/Face_model_architecture.json').read())
+
 
 # model.load_weights('_model_weights.h5')
-model.load_weights('./models/Face_model_weights.h5')
+model.load_weights('/home/amit-roy/PycharmProjects/uRECO/FacialExpressionClassifer/models/Face_model_weights.h5')
 sgd = SGD(lr=0.1, decay=1e-6, momentum=0.9, nesterov=True)
 model.compile(loss='categorical_crossentropy', optimizer=sgd)
 
@@ -32,7 +33,7 @@ from scipy.ndimage import zoom
 
 
 def detect_face(frame):
-    cascPath = "./models/haarcascade_frontalface_default.xml"
+    cascPath = "/home/amit-roy/PycharmProjects/uRECO/FacialExpressionClassifer/models/haarcascade_frontalface_default.xml"
     faceCascade = cv2.CascadeClassifier(cascPath)
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     detected_faces = faceCascade.detectMultiScale(

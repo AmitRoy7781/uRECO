@@ -114,9 +114,6 @@ def feature1():
     return facial_expression_recognition()
 
 
-
-
-
 def facial_expression_recognition():
     from keras.models import model_from_json
     from keras.optimizers import SGD
@@ -225,6 +222,7 @@ def facial_expression_recognition():
     # When everything is done, release the capture
     video_capture.release()
     cv2.destroyAllWindows()
+    return render_template("logged_in.html")
 
 
 

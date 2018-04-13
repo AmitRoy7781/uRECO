@@ -106,14 +106,22 @@ def sign_in():
     else:
         return render_template("logged_in.html")
 
-#@app.route('/virtual_keyboard')
-#def virtual_keyboard():
-#    keyboard.main()
+
+@app.route('/virtual_keyboard')
+def virtual_keyboard():
+    return render_template("sign_up.html")
 
 
-#@app.route('/facial_expression_classifer')
-#def facial_expression_classifier():
-#    emodetect.extract_face_features()
+@app.route('/facial_expression_recognition')
+def facial_expression_recognition():
+    print 'I am clicked'
+
+    return "Not Yet Merged"
+
+
+@app.route('/sign_language_detection')
+def sign_language_detection():
+    return "Not Yet Merged"
 
 
 if __name__ == '__main__':

@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94fe602a-222d-4bd9-a9e1-97f0294e321c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/FacialExpressionClassifer/DetectEmotion.py" afterPath="$PROJECT_DIR$/FacialExpressionClassifer/DetectEmotion.py" />
-      <change beforePath="$PROJECT_DIR$/VirtualKeyboard/virtual_keyboard.py" afterPath="$PROJECT_DIR$/VirtualKeyboard/virtual_keyboard.py" />
       <change beforePath="$PROJECT_DIR$/uRECO.py" afterPath="$PROJECT_DIR$/uRECO.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +17,7 @@
     <SUITE FILE_PATH="coverage/uRECO$virtual_keyboard.coverage" NAME="virtual_keyboard Coverage Results" MODIFIED="1522764538776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Holographic Keyboard" />
     <SUITE FILE_PATH="coverage/uRECO$virtual_keyboard__1_.coverage" NAME="virtual_keyboard (1) Coverage Results" MODIFIED="1523616341583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/VirtualKeyboard" />
     <SUITE FILE_PATH="coverage/uRECO$range_detector.coverage" NAME="range-detector Coverage Results" MODIFIED="1522763766154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Holographic Keyboard" />
-    <SUITE FILE_PATH="coverage/uRECO$uRECO.coverage" NAME="uRECO Coverage Results" MODIFIED="1523616480189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/uRECO$uRECO.coverage" NAME="uRECO Coverage Results" MODIFIED="1523618017019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/uRECO$DetectEmotion.coverage" NAME="DetectEmotion Coverage Results" MODIFIED="1522764250021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FacialExpressionClassifier" />
   </component>
   <component name="FileEditorManager">
@@ -38,8 +35,8 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1330">
-              <caret line="127" column="12" lean-forward="false" selection-start-line="127" selection-start-column="12" selection-end-line="127" selection-end-column="12" />
+            <state relative-caret-position="344">
+              <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -48,30 +45,29 @@
       <file leaf-file-name="uRECO.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/uRECO.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="143" column="12" lean-forward="false" selection-start-line="143" selection-start-column="12" selection-end-line="143" selection-end-column="12" />
+            <state relative-caret-position="72">
+              <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
               <folding>
                 <element signature="e#0#99#0" expanded="true" />
-                <marker date="1523616401361" expanded="true" signature="1805:1875" ph="SELECT user_... user" />
-                <marker date="1523616401361" expanded="true" signature="2003:2095" ph="INSERT INTO users... " />
-                <marker date="1523616401361" expanded="true" signature="2742:2812" ph="SELECT name user" />
-                <marker date="1523616401361" expanded="true" signature="2742:2833" ph="SELECT name user" />
-                <marker date="1523616401361" expanded="true" signature="2742:2844" ph="SELECT name user" />
-                <marker date="1523616401361" expanded="true" signature="2742:2846" ph="SELECT user_... user" />
-                <marker date="1523616401361" expanded="true" signature="2742:2848" ph="SELECT name user" />
+                <element signature="e#7833#15733#0" expanded="false" />
+                <marker date="1523618153916" expanded="true" signature="1805:1875" ph="SELECT user_... user" />
+                <marker date="1523618153916" expanded="true" signature="2003:2095" ph="INSERT INTO users... " />
+                <marker date="1523618153916" expanded="true" signature="2742:2812" ph="SELECT name user" />
+                <marker date="1523618153916" expanded="true" signature="2742:2833" ph="SELECT name user" />
+                <marker date="1523618153916" expanded="true" signature="2742:2844" ph="SELECT name user" />
+                <marker date="1523618153916" expanded="true" signature="2742:2846" ph="SELECT user_... user" />
+                <marker date="1523618153916" expanded="true" signature="2742:2848" ph="SELECT name user" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="virtual_keyboard.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VirtualKeyboard/virtual_keyboard.py">
+      <file leaf-file-name="logged_in.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/logged_in.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="64" lean-forward="false" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-241">
+              <caret line="64" column="96" lean-forward="false" selection-start-line="64" selection-start-column="96" selection-end-line="64" selection-end-column="96" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -79,8 +75,8 @@
       <file leaf-file-name="DetectEmotion.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FacialExpressionClassifer/DetectEmotion.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="35" column="85" lean-forward="false" selection-start-line="35" selection-start-column="79" selection-end-line="35" selection-end-column="85" />
+            <state relative-caret-position="270">
+              <caret line="15" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -466,13 +462,14 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#99#0" expanded="true" />
-            <marker date="1523616401361" expanded="true" signature="1805:1875" ph="SELECT user_... user" />
-            <marker date="1523616401361" expanded="true" signature="2003:2095" ph="INSERT INTO users... " />
-            <marker date="1523616401361" expanded="true" signature="2742:2812" ph="SELECT name user" />
-            <marker date="1523616401361" expanded="true" signature="2742:2833" ph="SELECT name user" />
-            <marker date="1523616401361" expanded="true" signature="2742:2844" ph="SELECT name user" />
-            <marker date="1523616401361" expanded="true" signature="2742:2846" ph="SELECT user_... user" />
-            <marker date="1523616401361" expanded="true" signature="2742:2848" ph="SELECT name user" />
+            <element signature="e#7833#15733#0" expanded="false" />
+            <marker date="1523618153916" expanded="true" signature="1805:1875" ph="SELECT user_... user" />
+            <marker date="1523618153916" expanded="true" signature="2003:2095" ph="INSERT INTO users... " />
+            <marker date="1523618153916" expanded="true" signature="2742:2812" ph="SELECT name user" />
+            <marker date="1523618153916" expanded="true" signature="2742:2833" ph="SELECT name user" />
+            <marker date="1523618153916" expanded="true" signature="2742:2844" ph="SELECT name user" />
+            <marker date="1523618153916" expanded="true" signature="2742:2846" ph="SELECT user_... user" />
+            <marker date="1523618153916" expanded="true" signature="2742:2848" ph="SELECT name user" />
           </folding>
         </state>
       </provider>
@@ -630,14 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/logged_in.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="64" column="96" lean-forward="false" selection-start-line="64" selection-start-column="96" selection-end-line="64" selection-end-column="96" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/sign_in.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-583">
@@ -654,24 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1330">
-          <caret line="127" column="12" lean-forward="false" selection-start-line="127" selection-start-column="12" selection-end-line="127" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FacialExpressionClassifer/DetectEmotion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="35" column="85" lean-forward="false" selection-start-line="35" selection-start-column="79" selection-end-line="35" selection-end-column="85" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/h5py/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -682,27 +653,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/VirtualKeyboard/virtual_keyboard.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="64" lean-forward="false" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+        <state relative-caret-position="231">
+          <caret line="170" column="0" lean-forward="true" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FacialExpressionClassifer/DetectEmotion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/logged_in.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-241">
+          <caret line="64" column="96" lean-forward="false" selection-start-line="64" selection-start-column="96" selection-end-line="64" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/uRECO.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="143" column="12" lean-forward="false" selection-start-line="143" selection-start-column="12" selection-end-line="143" selection-end-column="12" />
+        <state relative-caret-position="72">
+          <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
           <folding>
             <element signature="e#0#99#0" expanded="true" />
-            <marker date="1523616401361" expanded="true" signature="1805:1875" ph="SELECT user_... user" />
-            <marker date="1523616401361" expanded="true" signature="2003:2095" ph="INSERT INTO users... " />
-            <marker date="1523616401361" expanded="true" signature="2742:2812" ph="SELECT name user" />
-            <marker date="1523616401361" expanded="true" signature="2742:2833" ph="SELECT name user" />
-            <marker date="1523616401361" expanded="true" signature="2742:2844" ph="SELECT name user" />
-            <marker date="1523616401361" expanded="true" signature="2742:2846" ph="SELECT user_... user" />
-            <marker date="1523616401361" expanded="true" signature="2742:2848" ph="SELECT name user" />
+            <element signature="e#7833#15733#0" expanded="false" />
+            <marker date="1523618153916" expanded="true" signature="1805:1875" ph="SELECT user_... user" />
+            <marker date="1523618153916" expanded="true" signature="2003:2095" ph="INSERT INTO users... " />
+            <marker date="1523618153916" expanded="true" signature="2742:2812" ph="SELECT name user" />
+            <marker date="1523618153916" expanded="true" signature="2742:2833" ph="SELECT name user" />
+            <marker date="1523618153916" expanded="true" signature="2742:2844" ph="SELECT name user" />
+            <marker date="1523618153916" expanded="true" signature="2742:2846" ph="SELECT user_... user" />
+            <marker date="1523618153916" expanded="true" signature="2742:2848" ph="SELECT name user" />
           </folding>
         </state>
       </provider>

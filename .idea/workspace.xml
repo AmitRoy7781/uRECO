@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94fe602a-222d-4bd9-a9e1-97f0294e321c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ASL/cnn_keras.py" afterPath="$PROJECT_DIR$/ASL/cnn_keras.py" />
-      <change beforePath="$PROJECT_DIR$/ASL/fun_util.py" afterPath="$PROJECT_DIR$/ASL/fun_util.py" />
-      <change beforePath="$PROJECT_DIR$/ASL/hist" afterPath="$PROJECT_DIR$/ASL/hist" />
-      <change beforePath="$PROJECT_DIR$/ASL/test_labels" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ASL/train_images" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ASL/train_labels" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/img/features/1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/img/features/2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" afterPath="$PROJECT_DIR$/templates/home.html" />
-      <change beforePath="$PROJECT_DIR$/uRECO.py" afterPath="$PROJECT_DIR$/uRECO.py" />
+      <change beforePath="$PROJECT_DIR$/templates/logged_in.html" afterPath="$PROJECT_DIR$/templates/logged_in.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,21 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-252">
-              <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="123" selection-end-column="16" />
+            <state relative-caret-position="198">
+              <caret line="118" column="0" lean-forward="true" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logged_in.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="logged_in.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/logged_in.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="89" column="15" lean-forward="false" selection-start-line="89" selection-start-column="15" selection-end-line="89" selection-end-column="15" />
+            <state relative-caret-position="245">
+              <caret line="119" column="16" lean-forward="false" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -59,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/uRECO.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="e#480#515#0" expanded="false" />
                 <element signature="e#560#595#0" expanded="false" />
@@ -780,7 +770,7 @@
     <entry file="file://$PROJECT_DIR$/uRECO.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="e#480#515#0" expanded="false" />
             <element signature="e#560#595#0" expanded="false" />
@@ -797,18 +787,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/templates/logged_in.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-252">
-          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="123" selection-end-column="16" />
+        <state relative-caret-position="245">
+          <caret line="119" column="16" lean-forward="false" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/logged_in.html">
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="89" column="15" lean-forward="false" selection-start-line="89" selection-start-column="15" selection-end-line="89" selection-end-column="15" />
+        <state relative-caret-position="198">
+          <caret line="118" column="0" lean-forward="true" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
           <folding />
         </state>
       </provider>

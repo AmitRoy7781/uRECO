@@ -109,13 +109,11 @@ def sign_in():
 
 @app.route('/virtual_keyboard')
 def virtual_keyboard():
-    return render_template("sign_up.html")
+    return "Not Yet Merged"
 
 
 @app.route('/facial_expression_recognition')
 def facial_expression_recognition():
-    print 'I am clicked'
-
     return "Not Yet Merged"
 
 

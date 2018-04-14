@@ -1,5 +1,5 @@
 # uRECO
-A web application related to image and gesture recognition.
+A web application related to image processing and gesture recognition.
 
 **Developed by:**
 - [Amit Roy](https://github.com/AmitRoy7)
@@ -7,6 +7,6 @@ A web application related to image and gesture recognition.
 - [Tauhid Tanjim](https://github.com/Tanjim13)
 
 **Features:**
-- American Sign Language Character Detection through Computer Camera
-- Face Detection and Facial Expression Classifier
-- Virtual PC Controller
+- American Sign Language (ASL) Character Detection through Computer Camera
+- Facial Expression Classifier
+- Virtual PC Keyboard

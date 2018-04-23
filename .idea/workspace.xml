@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94fe602a-222d-4bd9-a9e1-97f0294e321c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/templates/logged_in.html" afterPath="$PROJECT_DIR$/templates/logged_in.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/VirtualKeyboard/range.pickle" afterPath="$PROJECT_DIR$/VirtualKeyboard/range.pickle" />
+      <change beforePath="$PROJECT_DIR$/static/img/features/face_reco.jpg" afterPath="$PROJECT_DIR$/static/img/features/face_reco.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/img/features/sign_reco.jpg" afterPath="$PROJECT_DIR$/static/img/features/sign_reco.jpg" />
+      <change beforePath="$PROJECT_DIR$/static/img/features/virtual_keyboard.jpg" afterPath="$PROJECT_DIR$/static/img/features/virtual_keyboard.jpg" />
+      <change beforePath="$PROJECT_DIR$/uRECO.py" afterPath="$PROJECT_DIR$/uRECO.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,16 +25,16 @@
     <SUITE FILE_PATH="coverage/uRECO$virtual_keyboard.coverage" NAME="virtual_keyboard Coverage Results" MODIFIED="1522764538776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Holographic Keyboard" />
     <SUITE FILE_PATH="coverage/uRECO$virtual_keyboard__1_.coverage" NAME="virtual_keyboard (1) Coverage Results" MODIFIED="1523616341583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/VirtualKeyboard" />
     <SUITE FILE_PATH="coverage/uRECO$range_detector.coverage" NAME="range-detector Coverage Results" MODIFIED="1522763766154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Holographic Keyboard" />
-    <SUITE FILE_PATH="coverage/uRECO$uRECO.coverage" NAME="uRECO Coverage Results" MODIFIED="1523628241442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/uRECO$uRECO.coverage" NAME="uRECO Coverage Results" MODIFIED="1524509160805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/uRECO$DetectEmotion.coverage" NAME="DetectEmotion Coverage Results" MODIFIED="1522764250021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FacialExpressionClassifier" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="118" column="0" lean-forward="true" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+            <state relative-caret-position="2142">
+              <caret line="119" column="37" lean-forward="false" selection-start-line="119" selection-start-column="37" selection-end-line="119" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -38,30 +43,32 @@
       <file leaf-file-name="logged_in.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/logged_in.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
+            <state relative-caret-position="2142">
               <caret line="119" column="16" lean-forward="false" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uRECO.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="uRECO.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/uRECO.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="233">
+              <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
               <folding>
                 <element signature="e#480#515#0" expanded="false" />
-                <element signature="e#560#595#0" expanded="false" />
-                <element signature="e#651#689#0" expanded="false" />
-                <element signature="e#722#1014#0" expanded="false" />
-                <element signature="e#1084#2258#0" expanded="false" />
-                <element signature="e#2316#2354#0" expanded="false" />
-                <element signature="e#2417#2813#0" expanded="false" />
-                <element signature="e#2908#2946#0" expanded="false" />
-                <element signature="e#2988#7459#0" expanded="false" />
-                <element signature="e#7617#21742#0" expanded="false" />
-                <element signature="e#21873#29775#0" expanded="false" />
+                <element signature="e#729#767#0" expanded="false" />
+                <element signature="e#800#1092#0" expanded="false" />
+                <element signature="e#2394#2432#0" expanded="false" />
+                <element signature="e#2495#2891#0" expanded="false" />
+                <element signature="e#2986#3024#0" expanded="false" />
+                <element signature="e#3066#7537#0" expanded="false" />
+                <element signature="e#7695#21820#0" expanded="false" />
+                <element signature="e#21951#29853#0" expanded="false" />
+                <marker date="1524509435413" expanded="true" signature="1717:1787" ph="SELECT user_... user" />
+                <marker date="1524509435413" expanded="true" signature="1899:1991" ph="INSERT INTO user... " />
+                <marker date="1524509435413" expanded="true" signature="2624:2732" ph="SELECT user_... user" />
+                <marker date="1524509435413" expanded="true" signature="9052:9090" ph="SELECT g_nam... gesture" />
               </folding>
             </state>
           </provider>
@@ -201,9 +208,9 @@
         <option value="$PROJECT_DIR$/ASL/fun_util.py" />
         <option value="$PROJECT_DIR$/cnn_tf.py" />
         <option value="$PROJECT_DIR$/ASL/cnn_keras.py" />
-        <option value="$PROJECT_DIR$/uRECO.py" />
         <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/templates/logged_in.html" />
+        <option value="$PROJECT_DIR$/uRECO.py" />
       </list>
     </option>
   </component>
@@ -235,8 +242,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -461,7 +468,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30948678" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32659408" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28334647" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24230465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -674,9 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="170" column="0" lean-forward="true" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -767,29 +771,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uRECO.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#480#515#0" expanded="false" />
-            <element signature="e#560#595#0" expanded="false" />
-            <element signature="e#651#689#0" expanded="false" />
-            <element signature="e#722#1014#0" expanded="false" />
-            <element signature="e#1084#2258#0" expanded="false" />
-            <element signature="e#2316#2354#0" expanded="false" />
-            <element signature="e#2417#2813#0" expanded="false" />
-            <element signature="e#2908#2946#0" expanded="false" />
-            <element signature="e#2988#7459#0" expanded="false" />
-            <element signature="e#7617#21742#0" expanded="false" />
-            <element signature="e#21873#29775#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/logged_in.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
+        <state relative-caret-position="2142">
           <caret line="119" column="16" lean-forward="false" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
           <folding />
         </state>
@@ -797,9 +781,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="118" column="0" lean-forward="true" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+        <state relative-caret-position="2142">
+          <caret line="119" column="37" lean-forward="false" selection-start-line="119" selection-start-column="37" selection-end-line="119" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uRECO.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+          <folding>
+            <element signature="e#480#515#0" expanded="false" />
+            <element signature="e#729#767#0" expanded="false" />
+            <element signature="e#800#1092#0" expanded="false" />
+            <element signature="e#2394#2432#0" expanded="false" />
+            <element signature="e#2495#2891#0" expanded="false" />
+            <element signature="e#2986#3024#0" expanded="false" />
+            <element signature="e#3066#7537#0" expanded="false" />
+            <element signature="e#7695#21820#0" expanded="false" />
+            <element signature="e#21951#29853#0" expanded="false" />
+            <marker date="1524509435413" expanded="true" signature="1717:1787" ph="SELECT user_... user" />
+            <marker date="1524509435413" expanded="true" signature="1899:1991" ph="INSERT INTO user... " />
+            <marker date="1524509435413" expanded="true" signature="2624:2732" ph="SELECT user_... user" />
+            <marker date="1524509435413" expanded="true" signature="9052:9090" ph="SELECT g_nam... gesture" />
+          </folding>
         </state>
       </provider>
     </entry>

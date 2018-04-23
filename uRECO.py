@@ -22,6 +22,9 @@ def home():
 def start_page():
     return render_template("home.html")
 
+@app.route('/log_out')
+def log_out():
+    return render_template("home.html")
 
 
 

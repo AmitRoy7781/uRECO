@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94fe602a-222d-4bd9-a9e1-97f0294e321c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/VirtualKeyboard/range.pickle" afterPath="$PROJECT_DIR$/VirtualKeyboard/range.pickle" />
-      <change beforePath="$PROJECT_DIR$/static/img/features/face_reco.jpg" afterPath="$PROJECT_DIR$/static/img/features/face_reco.jpg" />
-      <change beforePath="$PROJECT_DIR$/static/img/features/sign_reco.jpg" afterPath="$PROJECT_DIR$/static/img/features/sign_reco.jpg" />
-      <change beforePath="$PROJECT_DIR$/static/img/features/virtual_keyboard.jpg" afterPath="$PROJECT_DIR$/static/img/features/virtual_keyboard.jpg" />
-      <change beforePath="$PROJECT_DIR$/uRECO.py" afterPath="$PROJECT_DIR$/uRECO.py" />
-    </list>
+    <list default="true" id="94fe602a-222d-4bd9-a9e1-97f0294e321c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,8 +60,6 @@
                 <element signature="e#21951#29853#0" expanded="false" />
                 <marker date="1524509435413" expanded="true" signature="1717:1787" ph="SELECT user_... user" />
                 <marker date="1524509435413" expanded="true" signature="1899:1991" ph="INSERT INTO user... " />
-                <marker date="1524509435413" expanded="true" signature="2624:2732" ph="SELECT user_... user" />
-                <marker date="1524509435413" expanded="true" signature="9052:9090" ph="SELECT g_nam... gesture" />
               </folding>
             </state>
           </provider>
@@ -803,8 +794,6 @@
             <element signature="e#21951#29853#0" expanded="false" />
             <marker date="1524509435413" expanded="true" signature="1717:1787" ph="SELECT user_... user" />
             <marker date="1524509435413" expanded="true" signature="1899:1991" ph="INSERT INTO user... " />
-            <marker date="1524509435413" expanded="true" signature="2624:2732" ph="SELECT user_... user" />
-            <marker date="1524509435413" expanded="true" signature="9052:9090" ph="SELECT g_nam... gesture" />
           </folding>
         </state>
       </provider>

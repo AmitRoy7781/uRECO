@@ -22,8 +22,28 @@ def home():
 def start_page():
     return render_template("home.html")
 
+@app.route('/logged_in')
+def logged_in():
+    return render_template("logged_in.html")
+
+
+
+def is_logged_in(f):
+    @wraps(f)
+    def wrap(*args, **kwargs):
+        if 'logged_in' in session:
+            return f(*args, **kwargs)
+        else:
+            flash('Unauthorized, Please login', 'danger')
+            return redirect(url_for('login'))
+    return wrap
+
+
 @app.route('/log_out')
+@is_logged_in
 def log_out():
+    session.clear()
+    flash('You are now logged out', 'success')
     return render_template("home.html")
 
 
@@ -105,6 +125,11 @@ def sign_in():
     if temp is None:
         return render_template('sign_in.html')
     else:
+        session['logged_in'] = True
+        session['username'] = username
+
+        flash('You are now logged in', 'success')
+
         return render_template("logged_in.html")
 
 
@@ -115,6 +140,7 @@ def sign_in():
 
 # @author SAIF MAHMUD
 @app.route('/facial_expression_recognition')
+@is_logged_in
 def feature1():
     return facial_expression_recognition()
 def facial_expression_recognition():
@@ -234,6 +260,7 @@ def facial_expression_recognition():
 
 # @author TAUHID TANJIM
 @app.route('/sign_language_detection')
+@is_logged_in
 def feature2():
     return sign_language_detection()
 def sign_language_detection():
@@ -566,6 +593,7 @@ def sign_language_detection():
 
 # @author AMIT ROY
 @app.route('/virtual_keyboard')
+@is_logged_in
 def feature3():
     return virtual_keyboard()
 def virtual_keyboard():

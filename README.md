@@ -1,5 +1,6 @@
 # uRECO
 A web application related to image processing and gesture recognition.
+[Check out the youtube video !!](https://youtu.be/nhyKpvAZZts)
 
 **Developed by:**
 - [Amit Roy](https://github.com/AmitRoy7)

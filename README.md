@@ -13,9 +13,9 @@ A web application related to image processing and gesture recognition.
 - Virtual PC Keyboard
 
 **Platform:**
--Pycharm
+- Pycharm
 
 **Language:**
--**BackEnd:** Python, Flask - A Python framework, Kearas, Tensorflow, OpenCv
--**FrontEnd:** HTML, CSS, Javascript,
+- **BackEnd:** Python, Flask - A Python framework, Kearas, Tensorflow, OpenCv
+- **FrontEnd:** HTML, CSS, Javascript,
 

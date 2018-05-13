@@ -11,3 +11,11 @@ A web application related to image processing and gesture recognition.
 - American Sign Language (ASL) Character Detection through Computer Camera
 - Facial Expression Classifier
 - Virtual PC Keyboard
+
+**Platform:**
+Pycharm
+
+**Language:**
+**-BackEnd:** Python, Flask - A Python framework, Kearas, Tensorflow, OpenCv
+**-FrontEnd:** HTML, CSS, Javascript,
+

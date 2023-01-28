@@ -8,10 +8,10 @@ A web application related to image processing and gesture recognition.
 - [Tauhid Tanjim](https://github.com/Tanjim13)
 
 **Features:**
+- Facial Expression Classifier
+![Facial Expression Classifier](facial_expression_classifier.png?raw=true "Title")
 - American Sign Language (ASL) Character Detection through Computer Camera
 ![American Sign Language Character Detection](asl_digit_recognition.png?raw=true "Title")
-- Facial Expression Classifier
-![Facial Expression Classifier](facial_expression_classifier.png.png?raw=true "Title")
 - Virtual PC Keyboard
 ![Virtual PC Keyboard](virtual_keyboard.png?raw=true "Title")
 

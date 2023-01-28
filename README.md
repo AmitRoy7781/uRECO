@@ -18,11 +18,11 @@ A web application related to image processing and gesture recognition.
 
 
 - American Sign Language (ASL) Character Detection through Computer Camera
-![American Sign Language Character Detection](asl_digit_recognition.png?raw=true "Title")
+<img src="asl_digit_recognition.png" width="500">
 
 
 - Virtual PC Keyboard
-![Virtual PC Keyboard](virtual_keyboard.png?raw=true "Title")
+<img src="virtual_keyboard.png" width="500">
 
 **Platform:**
 - Pycharm

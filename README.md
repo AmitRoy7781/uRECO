@@ -13,7 +13,7 @@ A web application related to image processing and gesture recognition.
 
 
 - Facial Expression Classifier
-![Facial Expression Classifier](facial_expression_classifier.png)
+<img src="facial_expression_classifier.png" width="200">
 
 
 

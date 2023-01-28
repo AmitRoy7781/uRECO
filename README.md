@@ -8,7 +8,7 @@ A web application related to image processing and gesture recognition.
 - [Tauhid Tanjim](https://github.com/Tanjim13)
 
 **Features:**
-![Features](features.png?raw=true "Title")  
+<img src="features.png" width="500">
 
 
 
